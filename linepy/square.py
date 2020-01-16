@@ -10,7 +10,7 @@ def loggedIn(func):
             else:
                 args[0].callback.other('You want to call the function, you must login to LINE')
         else:
-            args[0].callback.other('\n\n==============================================\n\nANDA SUKSES LOGIN DIPERANGKAT ARIFISTIFIK \n\n\n\nGUNAKAN BOT DENGAN BIJAK DAN JANGAN SOMBONG\n\n==============================================\n\n')
+            args[0].callback.other('\n\n==============================================\n\nANDA SUKSES LOGIN DIPERANGKAT EHUNBOT\n\n\n\nGUNAKAN BOT DENGAN BIJAK DAN JANGAN SOMBONG\n\n==============================================\n\n')
     return checkLogin
 
 class Square(object):
@@ -25,7 +25,7 @@ class Square(object):
             self.squareObsToken = self.acquireEncryptedAccessToken(2).split('\x1e')[1]
         except:
             self.isSupportSquare = False
-            self.log('\n\n==============================================\n\nANDA SUKSES LOGIN DIPERANGKAT ARIFISTIFIK\n\n\n\nGUNAKAN BOT DENGAN BIJAK DAN JANGAN SOMBONG\n\n==============================================\n\n')
+            self.log('\n\n==============================================\n\nANDA SUKSES LOGIN DIPERANGKAT EHUNBOT\n\n\n\nGUNAKAN BOT DENGAN BIJAK DAN JANGAN SOMBONG\n\n==============================================\n\n')
 
     """Object"""
 
