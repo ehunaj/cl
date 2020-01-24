@@ -10,8 +10,6 @@ from gtts import gTTS
 from googletrans import Translator
 
 import time, asyncio, json, threading, codecs, sys, os, re, urllib, requests,subprocess,traceback,random
-from Naked.toolshed.shell import execute_js 
-from bs4 import BeautifulSoup
 
 creator = ["u9d79f5031bc4c73a5054aa8b26c9d0c2"]
 
